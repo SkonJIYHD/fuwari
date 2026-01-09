@@ -30,11 +30,11 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-  		{ 
-		src: 'assets/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-	 	theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-	 	sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-  		},
+		{
+			src: "assets/favicon/icon.png", // Path of the favicon, relative to the /public directory
+			theme: "light", // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -44,10 +44,10 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-      name: '临时邮箱',
-      url: 'https://moemail.sikon.top',     // Internal links should not include the base path, as it is automatically added
-      external: true,                               // Show an external link icon and will open in a new tab
-    	},
+			name: "临时邮箱",
+			url: "https://moemail.sikon.top", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
 		{
 			name: "GitHub",
 			url: "https://github.com/SkonJIYHD/fuwari", // Internal links should not include the base path, as it is automatically added
@@ -79,10 +79,10 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/SkonJIYHD",
 		},
 		{
-      name: 'QQ邮箱',
-      icon: 'fa6-solid:envelope',
-      url: 'mailto:266108830@qq.com',
-    },
+			name: "QQ邮箱",
+			icon: "fa6-solid:envelope",
+			url: "mailto:266108830@qq.com",
+		},
 	],
 };
 
