@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": true,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "src/content/posts",
+  "attachmentFolderPath": "src/assets/images",
+  "alwaysUpdateLinks": true,
+  "trashOption": "none"
+}
