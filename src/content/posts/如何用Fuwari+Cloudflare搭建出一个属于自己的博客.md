@@ -20,12 +20,12 @@ lang: ""
 - **响应式设计**：Fuwari 支持多设备适配和明暗主题
 
 > [!TIP]
-    > 如觉网络环境欠佳，建议后续操作全程开启魔法。
+    如觉网络环境欠佳，建议后续操作全程开启魔法。
 ## 前置准备
 
 ### 需要的账号
-- [GitHub] (https://github.com) 账号：用于代码托管
-- [Cloudflare] (https://cloudflare.com) 账号：用于网站部署
+- [GitHub](https://github.com) 账号：用于代码托管
+- [Cloudflare](https://cloudflare.com) 账号：用于网站部署
 ### 本地环境要求
 
 - **Git**：版本控制工具
@@ -196,7 +196,7 @@ export default defineConfig({
 
 1. 准备一张正方形图片（建议 60x60 像素）
 > [!TIP]
-    > 如果没有60x60像素大小图片的话可以去[IloveIMG](https://www.iloveimg.com/zh-cn)调整一下原图像大小
+    如果没有60x60像素大小图片的话可以去[IloveIMG](https://www.iloveimg.com/zh-cn)调整一下原图像大小
 
 2. 命名为 `avatar.jpg`
 3. 放入 `src/assets/favicon/` 目录
@@ -258,7 +258,6 @@ console.log(greeting);
 1. **本地存储**：将图片放在文章同目录，使用相对路径引用
 2. **外部图床**：使用图床服务，直接引用图片 URL
 
-**[图片位置：文章目录结构，展示 .md 文件和图片的组织方式]**
 ## Step 4：本地预览
 
 在部署之前，建议先在本地预览效果：
