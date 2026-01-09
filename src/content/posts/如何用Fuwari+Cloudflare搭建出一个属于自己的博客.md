@@ -247,8 +247,6 @@ const greeting = "Hello World";
 console.log(greeting);
 ​```
 ```
-
-```
 > [!TIP]
     > Front Matter 信息一般会在创建新文章时自动生成
 ### 图片处理
