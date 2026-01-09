@@ -246,9 +246,14 @@ draft: false  # 是否为草稿
 const greeting = "Hello World";
 console.log(greeting);
 ​```
+<<<<<<< HEAD
 ```
 > 
 [!TIP]
+=======
+
+> [!TIP]
+>>>>>>> e6bb5c24fb5edd8b3179b1fb6645bdfe08a8c548
     > Front Matter 信息一般会在创建新文章时自动生成
 
 ### 图片处理
