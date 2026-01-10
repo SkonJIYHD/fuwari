@@ -315,8 +315,8 @@ WEBUI_PORT=8001         # WebUI 服务器端口
 其他文件(model_config.toml、bot_config.toml)可以后续用Webui细调
  >[!TIP]
 用不了WebUI的也可以阅读以下文档:
->[bot_config配置教程](https://docs.mai-mai.org/manual/configuration/configuration_standard.html) 
->[ model_config配置教程](https://docs.mai-mai.org/manual/configuration/configuration_model_standard.html)
+[bot_config配置教程](https://docs.mai-mai.org/manual/configuration/configuration_standard.html) 
+[ model_config配置教程](https://docs.mai-mai.org/manual/configuration/configuration_model_standard.html)
 
 ---
 
@@ -398,9 +398,9 @@ level = "INFO"   # DEBUG / INFO / WARNING / ERROR
 
 修改以下字段即可:
 
-`heartbeat_interval`  心跳间隔
-`group_list` 群组列表
-`private_list` 私聊列表
+- heartbeat_interval`  心跳间隔
+- `group_list` 群组列表
+- `private_list` 私聊列表
 
 ---
 
@@ -516,11 +516,11 @@ uv python list
 
 利用 `.python-version` 文件 + `uv python pin`，在项目内固定默认 Python 版本：  
 
-**为 AstrBot 固定 3.11：**
+**为 AstrBot 固定 3.10：**
 
 ```bash
 cd ~/bots/AstrBot
-uv python pin 3.11
+uv python pin 3.10
 ```
 
 此时 AstrBot 目录下会生成 `.python-version`，内容为 `3.11`。
