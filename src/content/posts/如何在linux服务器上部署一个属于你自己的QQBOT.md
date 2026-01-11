@@ -592,4 +592,4 @@ uv 会根据各项目目录中的 `.python-version` 自动使用对应版本。
 
 ### 3. EULA 未同意导致 MaiBot 退出
 
-- 首次运行 `uv run python3 bot.py` 时，一定要在提示处输入 `同意` 或 `confirmed`，否则进程会直接退出。  
+- 首次运行 `uv run bot.py` 时，一定要在提示处输入 `同意` 或 `confirmed`，否则进程会直接退出。  
